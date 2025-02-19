@@ -58,11 +58,10 @@ section {
    margin-left: -0.5rem;
    color: #ffffff;
    font-size: 1.7rem;
-   padding: .9rem 3rem;
+   padding: 0.9rem 3rem;
    cursor: pointer;
    font-weight: bolder;
    animation: fadeIn .1s linear backwards .1s;
-
 }
 
 .btn:hover {
@@ -423,19 +422,19 @@ section {
  }
  
  /* Botones:  */
- .btn {
-    display: inline-block;
-    background: rgb(221, 14, 14);
-    border-radius: 15px;
-    margin-left: 1.5rem;
-    color: #ffffff;
-    font-size: 1.7rem;
-    padding: .9rem 3rem;
-    cursor: pointer;
-    font-weight: bolder;
-    animation: fadeIn .1s linear backwards .1s;
- }
- 
+ .btn.btn-block {
+   color: #fff;
+   background-color: rgb(245, 28, 28);
+   font-size: -37rem;
+   margin-bottom: -12.5rem;
+   margin-top: 145px;
+   width: 74%;
+   padding: 15px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
  .btn:hover {
     background: #f3baba;
  }
@@ -444,7 +443,7 @@ section {
 #carrito{
    position: fixed;
    top: 5rem;
-   left: 90rem;
+   left: 80rem;
    width: 30rem;
    height: 50rem;
 }
@@ -1374,11 +1373,11 @@ input[type="submit"] {
     height: 46rem;
    }
    .form-transferencia{
-      top: 15rem;
-      left: 1.5rem;
-      width: 32rem;
-      height: 44rem;
-   }
+      top: 12rem;
+      left: 2.5rem;
+      width: 29rem;
+      height: 43rem;
+  }
 
    #carrito{
       position: fixed;
@@ -1458,7 +1457,7 @@ input[type="submit"] {
    }
    
    .btn {
-      margin-left: 6.5rem;
+      margin-left: -0.5rem;
    }
 }
 
